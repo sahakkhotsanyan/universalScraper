@@ -1,0 +1,28 @@
+siteName: "example.com"
+storeID: 1
+repositoryFolder: "/projects/jsons"
+grabber:
+    with_pagination: true
+    product_selector: "a.p-card--title-link"
+    next_page_selector: ".next-page a"
+product:
+    name_selector: "h1[itemprop=\"name\"]"
+    name_regexp: ""
+    price_selector: ".product-price"
+    price_regexp: "\\d+"
+    brand_selector: ".manufacturers .value a"
+    brand_regexp: ""
+    has_exist_selector: ".pl-2.lh-100"
+    has_exist_regexp: ""
+    has_exist_true_value: "Առկա է"
+    main_image_selector: ".row.gallery img:nth-of-type(1)"
+    images_selector: ""
+    desc_selector: ".short-description"
+    property_text_selector: ".full-description"
+    property_selector: ""
+    property_head_selector: ""
+    property_head_regexp: ""
+    property_value_selector: ""
+    property_value_regexp: ""
+    property_name_selector: ""
+    property_name_regexp: ""
